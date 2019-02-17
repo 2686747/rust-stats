@@ -4,6 +4,7 @@ extern crate log;
 extern crate env_logger;
 extern crate time;
 extern crate serde_json;
+extern crate bars;
 
 use std::io::Error;
 use clap::App;
@@ -13,10 +14,9 @@ use util::parser;
 use time::PreciseTime;
 use core::stats;
 use core::stats::Stats;
-use domain::period::Period;
-use domain::bar::Bar;
+use bars::domain::bar::Bar;
+use bars::domain::period::Period;
 
-mod domain;
 mod util;
 mod core;
 

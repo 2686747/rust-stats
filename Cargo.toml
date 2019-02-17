@@ -9,5 +9,5 @@ log = "0.4"
 env_logger = "0.6"
 time = "0.1.40"
 serde_json = "1.0"
-#bars = { path = "../bars" }
+bars = { path = "../bars" }
 #bars = { git = "https://github.com/2686747/rust-charts-bars", branch = "latest" }

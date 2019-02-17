@@ -1,6 +1,6 @@
 use std::collections::BTreeMap;
-use domain::period::Period;
-use domain::bar::Bar;
+use bars::domain::bar::Bar;
+use bars::domain::period::Period;
 use std::fs::File;
 use std::io::Read;
 use time::PreciseTime;

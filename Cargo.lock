@@ -25,6 +25,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "bars"
+version = "0.1.0"
+
+[[package]]
 name = "bitflags"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -163,6 +167,7 @@ dependencies = [
 name = "stats"
 version = "0.1.0"
 dependencies = [
+ "bars 0.1.0",
  "clap 2.32.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "env_logger 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",

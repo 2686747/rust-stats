@@ -1,6 +1,6 @@
 use std::collections::BTreeMap;
-use domain::period::Period;
-use domain::bar::Bar;
+use bars::domain::bar::Bar;
+use bars::domain::period::Period;
 #[derive(Debug, Clone)]
 pub struct Stats {
 //    pub missing: Vec<(Option<Bar>, Option<Bar>)>,
